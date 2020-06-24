@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upcoming and past events</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+    <!-- nav bar from seperate html file-->
+    <div id="nav-placeholder">
+    </div>
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("myBootNav.html");
+    });
+    </script>
+    <!-- end of nav bar from seperate html file-->
+    <div id="emptydiv"></div>
+    <div>
+        <p style="float: left; margin-right: 50px;"><img src="./pictures/jason and scuba steve.png" width="600px"></p>
+        <p style="float: right;"><img src="./pictures/devils path.png" width="600px"></p>
+</div>
+    <table class="table table-striped table-bordered">
+        <tr>
+            <th>Date</th>
+            <th>time</th>
+            <th>Name of event</th>
+            <th>Description</th>
+            <th>Cost</th>
+            <th>Location</th>
+            <th>Sign-up info!</th>
+        </tr>
+        <!-- Template for new events, just copy and paste:
+        <tr>
+            <td>?/?/20 (?Tuesday)</td>
+            <td>6-?pm</td>
+            <th>Activity</td>
+            <td>Description!</td>
+            <td>Cost</td>
+            <td>Location <a target="_blank" href="">Address goes here</a></td>
+            <td><a target="_blank" href=""><button class="btn btn-primary">Click here to sign up!</button></a></td>
+        </tr>
+        -->
+        <td>6/5/20 (Friday)</td>
+            <td>9am (leaving Jason's house) - 11am(ish)</td>
+            <th>Mountain Biking</td>
+            <td>Fun spot to ride in queens. Not as much vertical, but cool terrain</td>
+            <td>None</td>
+            <td>Cunningham Park <a target="_blank" href="https://www.google.com/search?client=safari&rls=en&sxsrf=ALeKk0249B67v2_lSK5DM8c654euGr2ihA:1591289796518&q=cunningham+park+trail+head&npsic=0&rflfq=1&rlha=0&rllag=40735768,-73769680,832&tbm=lcl&ved=2ahUKEwiX_7i40OjpAhV5kHIEHSMoDBMQtgN6BAgKEAQ&tbs=lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!1m4!1u16!2m2!16m1!1e1!1m4!1u16!2m2!16m1!1e2!1m5!1u15!2m2!15m1!1shas_1wheelchair_1accessible_1entrance!4e2!2m1!1e2!2m1!1e16!2m1!1e3!3sIAE,lf:1,lf_ui:1&rldoc=1#rlfi=hd:;si:3628988399749155016;mv:[[40.7432136,-73.76457959999999],[40.7283231,-73.7747804]]">67-1 210th St, Oakland Gardens, NY 11364</a></td>
+            <td><a target="_blank" href="https://forms.gle/W1khG7SNWBbGutbo9"><button class="btn btn-primary">Click here to sign up!</button></a></td>
+        <tr>
+            <td>6/9/20 (Tuesday)</td>
+            <td>6-8pm</td>
+            <th>Mountain Biking</td>
+            <td>Fun trails on Long Island, it will be a good workout!</td>
+            <td>None</td>
+            <td>Glacier Ridge Trails <a target="_blank" href="https://maps.apple.com/place?q=Glacier%20Ridge%20Mountain%20Bike%20Trails&auid=8958300540166359473&address=1%20Independence%20Hl,%20Farmingville,%20NY%20%2011738,%20United%20States&ll=40.84592411822658,-73.01473438739777">1 independence Hl, Farmingville, NY, 11738</a></td>
+            <td><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLScSTW8rar1QiqsEK3dYs81xbz2KG11QKpinZLeGdl4SLNO5iw/viewform?usp=sf_link"><button class="btn btn-primary">Click here to sign up!</button></a></td>
+        </tr>
+        <tr>
+            <td>6/14/20 (Sunday)</td>
+            <td>estimate: 9am-3pm</td>
+            <th>Downhill Mountain Biking at Ramapo Mountain</td>
+            <td>4 people will alternate driving to the top of the mountain, 1 will drive while the other 3 will do downhill mountainbiking. It's a really beautiful place with awesome technical trails. There will also be some optional trail running and rock scrambling (if we aren't too exhausted)</td>
+            <td>None</td>
+            <td>Ramapo Mountain Preserve, NJ</td>
+            <td><a target="_blank" href="https://forms.gle/zKDWsPtjaytn7UQJ8"><button class="btn btn-primary">Click here to sign up!</button></a></td>
+        </tr>
+        <tr>
+            <td>6/21/20 (Sunday)</td>
+            <td>We will leave my house (27 Saucer Lane, Levittown, NY 11756) at 7am, we should be back before 1pm (plenty of time for father's day). If you prefer to meet us at the trailhead, I assume we will arrive around 8:30am.</td>
+            <th>Rock scramble at Breakneck Ridge!</td>
+            <td>This is a fun place to run around and climb! You will get great exercise and see beautiful views.</td>
+            <td>None</td>
+            <td>Breakneck Ridge<a target="_blank" href="https://goo.gl/maps/H8H3GVvbDJCKVHwE8">Breakneck ridge trail head in Cold Spring, NY</a></td>
+            <td><a target="_blank" href="https://forms.gle/gRq7Bu5pWWWLrFzj6"><button class="btn btn-primary">Click here to sign up!</button></a></td>
+        </tr>
+        <tr>
+            <td>8/21/20 - 8/23/20</td>
+            <td>
+                <strong>Day 1</strong> - Mountainbiking (not sure where yet)
+                <br>
+                <strong>Day 2</strong> - White Water Rafting on the Penobscot river (Class V rapids)
+                <br>
+                <strong>Day 3</strong> - Rock Scramble (Mahoosuc Notch)
+            </td>
+            <th>
+                Mountainbiking, White Water Rafting, and Rock Scrambling!
+            </th>
+            <td>
+                <strong>Join us for part of the trip, or the whole thing:</strong>
+                <hr>
+                We are still researching where we will mountain bike...
+                <hr>
+                Class 5 white water rafting in Maine (the highest difficulty level in North East).
+                We will have a 6 person raft. The trip is 8.5 hours and includes lunch on the river.
+                It looks like an amazing experience.
+                <a href="https://northeastwhitewater.com/maine-rafting/penobscot-adventurous/">Click here to see the website of the company that will be hosting us</a>
+                <hr>
+                It's supposed to have one of the toughest rock scrambles in the north east
+                (referred to as "the toughest mile on the appalachian trail"). The pictures show caves, crevices, steep scrambling... looks awesome.
+                <a target="_blank" href="https://www.alltrails.com/trail/us/maine/mahoosuc-notch-loop-via-north-pond-road-to-appalachian-trail">Click here for more info about the hike!</a>
+            </td>
+            <td>
+                Mountainbiking: Free
+                <hr>
+                Airbnb night 1:
+                <hr>
+                White water rafting: $135/person
+                <hr>
+                Airbnb night 2:
+                <hr>
+                Rock Scramble: Free
+                <hr>
+                <strong>Total cost to do everything: Less than $250</strong>
+            </td>
+            <td>
+                Mountain biking - somewhere on the way to Maine.
+                <hr>
+                Rafting - <a href="https://www.google.com/maps/place/155+Greenville+Rd,+Shirley+Mills,+ME+04485/@45.3814292,-69.5997751,17z/data=!3m1!4b1!4m5!3m4!1s0x4cb06592e12e4bc3:0xd15506a66c344ecc!8m2!3d45.3814292!4d-69.5975864">155 Greenville RdShirley Mills, ME 04485 (7.5 hours from my house in Levittown)</a>
+                <hr>
+                Rock Scramble - <a href="https://www.google.com/maps/place/Berlin,+NH/@44.4868474,-73.5021345,7z/data=!4m5!3m4!1s0x4cb3f06327513f4f:0xda474844c9d2c232!8m2!3d44.4686696!4d-71.1850768">Berlin, NH</a>
+            </td>
+            <td><a href="https://forms.gle/ZnTjA4yC5bPHayXFA"><button class="btn btn-primary">Click here to sign up!</button></a></th>
+        </tr>
+        <tr>
+            <td>9/4/20 - 9/6/20</td>
+            <td>Weekend event, Friday-Sunday</td>
+            <th>Electric Zoo</td>
+            <td>Electronic Dance Music Festival</td>
+            <td>Not yet released</td>
+            <td>Randall Island, NYC</td>
+            <td><a href="">Awaiting ticket sales to open up</a></td>
+        </tr>
+        <tr>
+            <td>9/12/20</td>
+            <td>estimate: 12pm-7pm</td>
+            <th>Tough Mudder</td>
+            <td>10 Mile course with 25 obstacles</td>
+            <td>Around $100</td>
+            <td><a href="https://goo.gl/maps/DNgK1vmjwP8b6hWx7">Raceway Park
+                230 Pension Road, Englishtown, NJ 07726</a></td>
+            <td><a href="https://www.toughmudder.com"><button class="btn btn-primary">Click here to sign up!</button></a></td>
+        </tr>
+        <tr>
+            <td>3/2/2021 - 3/9/2021</td>
+            <td>7 days</td>
+            <th>Snowboarding Big Sky, Montana</td>
+            <td>Snowboarding, snowmobiling, ice fishing, hiking, and other awesome winter activities!</td>
+            <td>$1,000-$2,000 (depending on what you do)</td>
+            <td>Big Sky, Montana</td>
+            <td>Contact me if you're interested in joining us on this trip</td>
+        </tr>
+    </table>
+</body>
+</html>

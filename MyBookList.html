@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jason's Book List</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+    <!-- nav bar from seperate html file-->
+    <div id="nav-placeholder">
+
+    </div>
+    
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("myBootNav.html");
+    });
+    </script>
+    <!-- end of nav bar from seperate html file-->
+    <div id="emptydiv"></div>    
+    <h1>This is the list of books I've read, am reading, or are planning on reading:</h1>
+    <p>A green highlight means I am currently reading it. A lightblue highlight means I'm currently reading it, but they are short stories. A yellow highlight means I have stopped reading it, and that I may not return to finish it.</p>
+    <p><a target="_blank" href="https://bit.ly/2DAlHAs">You can also view a sortable version by clicking here</a></p>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSf3na0KnhvaUML1huV1A4zSn9XE7SsGWJu65g4cPPapU0DEGayc0yiPHd9QY77BA1RVA6oVo3qi_V2/pubhtml?widget=true&amp;headers=false" style="width: 100%; height: 600px;"></iframe>
+</body>
+</html>

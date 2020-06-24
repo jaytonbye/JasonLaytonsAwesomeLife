@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events not yet scheduled</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+    <!-- nav bar from seperate html file-->
+    <div id="nav-placeholder">
+
+    </div>
+    
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("myBootNav.html");
+    });
+    </script>
+    <!-- end of nav bar from seperate html file-->
+    <div id="emptydiv"></div>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./pictures/jason and waynecarl.png" width="600px">
+            </div>
+            <div class="col-md-6">
+                <img src="./pictures/jason chess.png" width="600px" >
+                <figcaption>Challenge me on <a href="www.chess.com">Chess.com</a>. My username is Jaytonbye</figcaption>
+            </div>
+        </div>
+    <table class="table table-striped table-bordered">
+        <tr>
+            <th>Estimated date</th>
+            <th>Estimated duration</th>
+            <th>Name of event</th>
+            <th>Description</th>
+            <th>Cost</th>
+            <th>Location</th>
+            <th>Click here for more info and to sign up!</th>
+        </tr>
+        <!-- template for new events:
+        <tr>
+            <td>Estimated date</td>
+            <td>Estimated duration</td>
+            <th>Name of event</td>
+            <td>Description</th>
+            <td>Cost</td>
+            <td>Location</th>
+            <td><a target="_blank" href="">Click here for more info and to sign up!</a></th>
+        </tr>
+        -->
+        <tr>
+            <td>Summer, awaiting quaratine to end</td>
+            <td>8 hours (including travel)</td>
+            <th>Labrynth and the Lemon Squeeze (Rock Scramble at Mohonk Preserve)</td>
+            <td>Really cool and unique rock scramble, like nothing you've done before.</th>
+            <td>$21 Monday-Friday <br>
+                $26 weekends/holidays</td>
+            <td>High Falls, New York</th>
+            <td><a target="_blank" href="https://www.njhiking.com/labyrinth-lemon-squeeze/">Click here for more info about Lemon Squeeze</a></th>
+        </tr>
+        <tr>
+            <td>After quaratine</td>
+            <td>2 hours</td>
+            <th>Obstacle Athletics</td>
+            <td>Indoor obstacle course, will be good practice for the tough mudder. Let's get some exercise!</th>
+            <td>$20-$30</td>
+            <td><a target="_blank" href="https://www.google.com/maps/place/Obstacle+Athletics/@40.7599034,-73.3112999,15z/data=!4m5!3m4!1s0x0:0x102eb081e13a9578!8m2!3d40.7599034!4d-73.3112999"></a>Deerpark, NY</th>
+            <td><a target="_blank" href="http://www.obstacleathletics.com">http://www.obstacleathletics.com</a></th>
+        </tr>
+        <tr>
+            <td>After quaratine</td>
+            <td>20 minutes of flight time</td>
+            <th>Hang Gliding</td>
+            <td>Soar through the sky. Beautiful views. Looks fun!</th>
+            <td>Less than $200</td>
+            <td>100 Airport Rd, Middletown, NY 10940</th>
+            <td><a target="_blank" href="http://www.hangar3.net">Click here for more info.</a></th>
+        </tr>
+        <tr>
+            <td>A Monday through Thursday in January, February, or March</td>
+            <td>4 days</td>
+            <th>Snowboarding trip to Sunday River (Maine)</td>
+            <td>This is hands down my favorite mountain on the east coast, 
+                it has 8 interconnected peaks, awesome terrain/conditions, 
+                never has lift lines, and has the best glades you'll find on the east coast.</th>
+            <td>$400-$500</td>
+            <td>Sunday River, 15 S Ridge Rd, Newry, ME 04261</th>
+            <td><a target="_blank" href="https://forms.gle/Pt8yKQoJuxzNP4yEA">Click here if you're interested in joining me on this trip</a></th>
+        </tr>
+        <tr>
+            <td>After Quaratine, before it gets cold</td>
+            <td>6-8 hours</td>
+            <th>Paintball!</td>
+            <td>We will get a group together and play privately.</th>
+            <td>Less than $100</td>
+            <td>One of the outdoor fields on Long Island</th>
+            <td><a target="_blank" href="">Signup coming soon.</a></th>
+        </tr>
+    </table>
+</body>
+</html>

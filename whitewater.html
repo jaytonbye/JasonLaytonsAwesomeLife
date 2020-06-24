@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extreme white water rafting trip</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+    <!-- nav bar from seperate html file-->
+    <div id="nav-placeholder">
+
+    </div>
+    
+    <script>
+    $(function(){
+      $("#nav-placeholder").load("myBootNav.html");
+    });
+    </script>
+    <!-- end of nav bar from seperate html file-->
+    <div id="emptydiv"></div>
+    <div id="emptydiv"></div>
+    <img src="./pictures/Dead-River-High-Water-Rafting.jpg" width="500px">
+    <p>This will be an extreme white water rafting trip in class 5 rapids on the Penobscot river in Maine. We will either camp or stay in a cheap hotel the night before. We will Mountainbike or rock scramble the following day (this is optional).</p>
+    <h2>cost:</h2> <p>$150 includes all taxes and fees, equipment and riverside BBQ.</p>
+    <h2>There is only room for 6 people</h2>
+    <h2>Sign up here: (will be public)</h2>
+    <p>(Please do not sign-up unless you are committed to participating)</p>
+    <h1>THIS SIGNUP FORM WILL NOT WORK. IT'S A PLACEHOLDER FOR WHEN I'M BETTER AT CODING. I STILL DON'T REALLY KNOW WHAT I AM DOING :)</h1>
+    <form action="whitewater_submit.html" method="GET">
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" name="fname" required><br>
+        <label for="lname">Last Name:</label>
+        <input type="text" id="lname" name="lname" required><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+        <label for="comments">Public Comments: </label>
+        <textarea rows="10" cols="30" type="text" id="comments" name="comments"></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
