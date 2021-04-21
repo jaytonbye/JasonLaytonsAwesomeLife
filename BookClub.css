@@ -1,0 +1,17 @@
+
+  
+  .book-club-box{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .recomendation-form {
+    width: 45%;
+    height: 20rem;
+  }
+  
+  .sign-up-form {
+    width: 45%;
+    height: 20rem;
+  }
+  
