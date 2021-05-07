@@ -1,106 +1,219 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jason Layton's Awesome Life</title>
-    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.css" />
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/be503305829f816872b6ddf02/a36e88175dd404388d737937b.js");</script>
-</head>
-<body>
+    <script id="mcjs">
+      !(function (c, h, i, m, p) {
+        (m = c.createElement(h)),
+          (p = c.getElementsByTagName(h)[0]),
+          (m.async = 1),
+          (m.src = i),
+          p.parentNode.insertBefore(m, p);
+      })(
+        document,
+        "script",
+        "https://chimpstatic.com/mcjs-connected/js/users/be503305829f816872b6ddf02/a36e88175dd404388d737937b.js"
+      );
+    </script>
+  </head>
+  <body>
     <!-- nav bar from seperate html file-->
-    <div id="nav-placeholder">
+    <div id="nav-placeholder"></div>
 
-    </div>
-    
     <script>
-    $(function(){
-      $("#nav-placeholder").load("myBootNav.html");
-    });
+      $(function () {
+        $("#nav-placeholder").load("myBootNav.html");
+      });
     </script>
     <!-- end of nav bar from seperate html file-->
     <div id="emptydiv"></div>
 
     <!-- Carousel -->
-<div id="myCarousel" class="carousel slide m-5" data-ride="carousel">
-    <ol class="carousel-indicators">
+    <div id="myCarousel" class="carousel slide m-5" data-ride="carousel">
+      <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
         <li data-target="#myCarousel" data-slide-to="3"></li>
-    </ol>
+      </ol>
 
-    <div class="carousel-inner">
+      <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="./pictures/jason headshot.png" alt="" class="d-block img-fluid m-auto">
+          <img
+            src="./pictures/jason headshot.png"
+            alt=""
+            class="d-block img-fluid m-auto"
+          />
         </div>
         <div class="carousel-item">
-            <img src="./pictures/breakneck ridge team dynamic june 21 2020.jpg" alt="" class="d-block img-fluid">
+          <img
+            src="./pictures/breakneck ridge team dynamic june 21 2020.jpg"
+            alt=""
+            class="d-block img-fluid"
+          />
         </div>
         <div class="carousel-item">
-            <img src="./pictures/jason and scuba steve.png" alt="" class="d-block img-fluid">
+          <img
+            src="./pictures/jason and scuba steve.png"
+            alt=""
+            class="d-block img-fluid"
+          />
         </div>
         <div class="carousel-item">
-            <img src="pictures/beach practice.png" alt="" class="d-block img-fluid">
+          <img
+            src="pictures/beach practice.png"
+            alt=""
+            class="d-block img-fluid"
+          />
         </div>
-    </div>
+      </div>
 
-    <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+      <a
+        class="carousel-control-prev"
+        href="#myCarousel"
+        role="button"
+        data-slide="prev"
+      >
         <span class="carousel-control-prev-icon bg-dark"></span>
-    </a>
+      </a>
 
-    <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+      <a
+        class="carousel-control-next"
+        href="#myCarousel"
+        role="button"
+        data-slide="next"
+      >
         <span class="carousel-control-next-icon bg-dark"></span>
-    </a>
-</div>
+      </a>
+    </div>
 
-<!-- Jumbotron -->
+    <!-- Jumbotron -->
     <div class="jumbotron m-5">
-            <h1 class="text-secondary m-3">The purpose of this website is to make sure that I live the life I want to live.
-                There is so much I want to do, but making those experiences a reality takes work.
-                This is where we organize the adventure... Welcome to Jason Layton's awesome life.</h1>
+      <h1 class="text-secondary m-3">
+        The purpose of this website is to make sure that I live the life I want
+        to live. There is so much I want to do, but making those experiences a
+        reality takes work. This is where we organize the adventure... Welcome
+        to Jason Layton's awesome life.
+      </h1>
     </div>
-    <hr>
+    <hr />
     <div>
-        <h2 class="text-center m-3">Thinking about joining us? <a href="./upcoming.html">Click here to see a list of our upcoming events</a>, or check out some of our past adventures:</h2>
+      <h2 class="text text-center m-3">
+        Thinking about joining us?
+        <a href="./upcoming.html"
+          >Click here to see a list of our upcoming events</a
+        >, or check out some of our past adventures:
+      </h2>
     </div>
-    
-    <div class="container justify-content-center ">
-        <h4 class="text-center">The GOONS go to Maine! An epic 3 part mini-series!</h4>
-        <h4 class="text-center"> Part 1</h4>
-        <div class="d-flex justify-content-center embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/AkHHo6xA5b0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <h4 class="text-center"> Part 2</h4>
-        <div class="d-flex justify-content-center embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/9ezDRuHL4G8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <h4 class="text-center"> Part 3</h4>
-        <div class="d-flex justify-content-center embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Q8ovFb8FEjg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <h4 class="text-center">Snowboarding in Utah</h4>
-        <div class="d-flex justify-content-center embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/1bGh4uNTRHo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <h4 class="text-center">Mountain running at Mount Tamany</h4>
-        <div class="d-flex justify-content-center embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/QFKtgFkyqzA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <h4 class="text-center">Mountain biking at Stillwell Long Island</h4>
-        <div class="d-flex justify-content-center embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/loZJnP2aNjg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <h4 class="text-center">Our first time riding dirt bikes at the track</h4>
-        <div class="d-flex justify-content-center embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Bknfe44Je74?start=81" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <h4 class="text-center">Rock scramble at Breakneck Ridge</h4>
-        <div class="d-flex justify-content-center embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/k6oweMlJhAA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
-        <h1 class="text-center font-weight-bold display-3 text-secondary">More exciting adventures lie ahead! Join us next time... you are invited!</h1>
-    </div>   
-</body>
+
+    <div class="container justify-content-center">
+      <h4 class="text-center">
+        The GOONS go to Maine! An epic 3 part mini-series!
+      </h4>
+      <h4 class="text-center">Part 1</h4>
+      <div
+        class="d-flex justify-content-center embed-responsive embed-responsive-16by9"
+      >
+        <iframe
+          class="embed-responsive-item"
+          src="https://www.youtube.com/embed/AkHHo6xA5b0"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <h4 class="text-center">Part 2</h4>
+      <div
+        class="d-flex justify-content-center embed-responsive embed-responsive-16by9"
+      >
+        <iframe
+          class="embed-responsive-item"
+          src="https://www.youtube.com/embed/9ezDRuHL4G8"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <h4 class="text-center">Part 3</h4>
+      <div
+        class="d-flex justify-content-center embed-responsive embed-responsive-16by9"
+      >
+        <iframe
+          class="embed-responsive-item"
+          src="https://www.youtube.com/embed/Q8ovFb8FEjg"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <h4 class="text-center">Snowboarding in Utah</h4>
+      <div
+        class="d-flex justify-content-center embed-responsive embed-responsive-16by9"
+      >
+        <iframe
+          class="embed-responsive-item"
+          src="https://www.youtube.com/embed/1bGh4uNTRHo"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <h4 class="text-center">Mountain running at Mount Tamany</h4>
+      <div
+        class="d-flex justify-content-center embed-responsive embed-responsive-16by9"
+      >
+        <iframe
+          class="embed-responsive-item"
+          src="https://www.youtube.com/embed/QFKtgFkyqzA"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <h4 class="text-center">Mountain biking at Stillwell Long Island</h4>
+      <div
+        class="d-flex justify-content-center embed-responsive embed-responsive-16by9"
+      >
+        <iframe
+          class="embed-responsive-item"
+          src="https://www.youtube.com/embed/loZJnP2aNjg"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <h4 class="text-center">Our first time riding dirt bikes at the track</h4>
+      <div
+        class="d-flex justify-content-center embed-responsive embed-responsive-16by9"
+      >
+        <iframe
+          class="embed-responsive-item"
+          src="https://www.youtube.com/embed/Bknfe44Je74?start=81"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <h4 class="text-center">Rock scramble at Breakneck Ridge</h4>
+      <div
+        class="d-flex justify-content-center embed-responsive embed-responsive-16by9"
+      >
+        <iframe
+          class="embed-responsive-item"
+          src="https://www.youtube.com/embed/k6oweMlJhAA"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <h1 class="text-center font-weight-bold display-3 text-secondary">
+        More exciting adventures lie ahead! Join us next time... you are
+        invited!
+      </h1>
+    </div>
+  </body>
 </html>
